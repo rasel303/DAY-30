@@ -1,0 +1,145 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.lfwf-logo {
+	border: 2px solid #fc5f04;
+	height: 32px;
+	width: 35px;
+	display: inline-block;
+	line-height: 26px;
+    text-align: center;
+    border-radius: 25%;
+}
+.lfwf-logo i{
+    font-size: 15px;
+    color: #fc5f04;
+}
+
+.slider{
+    background: url(https://swall.teahub.io/photos/small/38-388908_graduation-ceremony.jpg) rgba(0,0,0,0.6) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    background-blend-mode: overlay;
+}
+a.btn.btn-outline-danger.text-white.d-inline {
+    padding: 11px 30px;
+    font-size: 21px;
+}
+a.btn.btn-outline-danger.text-white.d-inline:hover{
+    
+}
+
+.own-work h1 {
+    margin-bottom: 60px;
+    margin-top: 36px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.own-work h5 {
+    font-size: 27px;
+    font-weight: lighter;
+    color: white;
+}
+
+section.content-section {
+    padding: 100px;
+    background: #ecf0f1;
+}
+.content-section h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 27px;
+}
+.content-section p{
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+}
+.about{
+    margin: 50px;
+}
+.about h3{
+    font-size: 40px;
+    border-bottom: 5px solid #9b59b6;
+    display: inline-block;
+    margin-left: 377px;
+}
+
+.about-shadow {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	height: 270px;
+	overflow: hidden;
+    transition: all .4s;
+    transform: translateY(0);
+}
+.about-shadow:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+    transform: translateY(-7px);
+}
+
+.about-shadow img{
+    border-radius: 5px 0 0 5px;
+    height: 270px;
+}
+.nav-mar{
+    margin-right: 10px;
+}
+.nav-mar span{
+    font-size: 26px;
+    font-weight: 700;
+}
+.nav-left ul li a{
+    margin-right: 20PX;
+    font-size: 18PX;
+    font-weight: 500;
+}
+.nav-left ul li a:hover{
+   color: #180ae0;
+}
+
+.counter-number{
+    background: #bdc3c7;
+    padding: 40px;
+     
+}
+.number-item{
+    margin-top: 31px;
+}
+.number-item p{
+    font-size: 18px;
+}
+.number-item .h2{
+    font-size: 40px;
+}
+
+.portfolio{
+    background: #ecf0f1;
+    padding: 80px;
+}
+.portfolio h2 {
+    font-size: 48px;
+    margin-bottom: 34px;
+}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,0.4);
+    opacity: 0;
+    visibility: hidden; 
+    transition: .4s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
